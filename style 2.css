@@ -1,0 +1,63 @@
+#header{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+   
+}
+
+#menu{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+  
+}
+#content{
+    display: flex;
+    
+}
+#left-content{
+    width: 30%;
+    background-color: yellow;
+    height: 500px;
+}
+#right-content{
+    width: 70%;
+    background-image: url(/moi-tai-bo-hinh-nen-asus-rog-2020-moi-nhat_800x450.jpg);
+    height: 500px;
+
+}
+#footer{
+    width: 100%;
+    background-color: blue;
+    height: 200px;
+    
+}
+.main{
+    color: black;
+    text-align: center;
+    font-size:22px;
+    
+
+}
+.tab-menu{
+    list-style: none;
+    display:flex;
+    line-height: 150px;
+}
+.item{
+    margin:0px 40px;
+    
+}
+
+.side-menu{
+    list-style: none;
+    line-height: 150px;
+}
+@media only screen and (max-width: 768px){
+    #left-content{
+        display: none;
+    }
+    #right-content{
+        width: 100%;
+    }
+ }
